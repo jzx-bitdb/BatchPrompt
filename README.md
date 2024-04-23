@@ -14,4 +14,4 @@ We use two tasks for evaluation, namely, Entity Resolution and Code Assertion Ge
 
 ## Quick Start
 
-All commands are in 'command.sh'.
+Some commands are in 'command.sh'.
