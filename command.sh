@@ -12,8 +12,3 @@ python main.py --dataset_name FodorsZagats --batch_method ApproxAll --k0 0.98 --
 
 # Walmart-Amazon
 python main.py --dataset_name WalmartAmazon --batch_method ApproxAll --k0 1.42 --k1 0.19 --k2 800 --upper_ques 5 --model gpt-3.5-turbo-0125 --output_dir output/group_assignment > ./Results/Walmart-Amazon_gpt35-0125.log 
-
-
-# Dblp-Scholar
-python main.py --dataset_name DblpScholar --batch_method ApproxAll --k0 10 --k1 0.01 --k2 600 --upper_ques 5 --model gpt-3.5-turbo-0125 --output_dir output/group_assignment > ./Results/DblpScholar_gpt35-0125.log 
-
